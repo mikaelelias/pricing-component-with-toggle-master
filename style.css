@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    margin: 10rem;
+}
+
+
+.caixas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+.card_1 {
+    width: 12vw;
+    height: 45vh;    
+    background-color: #7fffd4;
+    border-radius: 15px 0 0 15px;
+}
+
+.card_2 {
+    width: 14vw;
+    height: 50vh;    
+    background-color: rgb(165, 87, 51);
+    border-radius: 15px;
+}
+
+.card_3 {
+    width: 12vw;
+    height: 45vh;    
+    background-color: rgb(55, 25, 187);
+    border-radius: 0 15px 15px 0;
+}
