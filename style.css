@@ -7,14 +7,20 @@
 
 .title {
     text-align: center;
-    margin: 10rem;
+    margin: 5rem;
+}
+
+.packages {
+    text-align: center;
+    margin: 4rem;
+    font-size: 30px;
 }
 
 .caixas {
     display: flex;
+    height: 60vh;
     align-items: center;
     justify-content: center;
-    margin-top: 10rem;
     text-align: center;
     color: rgb(5, 5, 5);
     font-size: 15px;
@@ -22,31 +28,30 @@
 }
 
 .card_1 {
-    width: 12vw;
-    height: 45vh;    
-    background-color: #8d8686;
+    width: 15vw;
+    height: 50vh;    
     border-radius: 15px 0 0 15px;
-    border: black;
+    border: solid 1px;
 }
 
 .card_2 {
-    width: 14vw;
-    height: 50vh;    
-    background-color: rgb(165, 87, 51);
+    width: 15vw;
+    height: 55vh;    
+    background-color:  hsl(236, 72%, 79%);
     border-radius: 15px;
-    
+    text-align: center;    
 }
 
 .card_3 {
-    width: 12vw;
-    height: 45vh;    
-    background-color: #8d8686;
-    border-radius: 0 15px 15px 0;
+    width: 15vw;
+    height: 50vh;    
+    border-radius: 5px;
+    border: solid 1px;
 }
 
 .txt_1 {
     font-size: 25px;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .txt_2 {
@@ -54,27 +59,32 @@
     margin-top: 2rem;
 }
 
-.txt_3 {
+.txt_3 .txt_4 .txt_5 .txt_sub_3 .txt_sub_4 .txt_sub_5 {
     font-size: 25px;
     margin-top: 1rem;
 }
 
-.txt_4 {
+.txt_sub_1 {
     font-size: 25px;
-    margin-top: 1rem;
+    margin-top: 5.3rem;
+    color: white;
 }
 
-.txt_5 {
-    font-size: 25px;
-    margin-top: 1rem;
+.txt_sub_2 {
+    font-size: 80px;
+    margin-top: 2rem;
+    color: white;
+}
+
+.txt_sub_3 .txt_sub_4 .txt_sub_5 {
+    color: white;
 }
 
 .caixas button {
-    background-color: rgba(194, 191, 194, 0.384);
     border: none;
-    margin: 0.5rem;
+    margin: 2rem;
     padding: 0.5rem;
-    width: 70%;
+    width: 85%;
     border-radius: 5px;
     font-size: 25px;
 }
