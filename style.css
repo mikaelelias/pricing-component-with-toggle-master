@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Poppins:wght@100;400&family=Space+Grotesk:wght@500&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -8,21 +10,23 @@
     margin: 10rem;
 }
 
-
 .caixas {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10rem;
     text-align: center;
-    color: white;
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .card_1 {
     width: 12vw;
     height: 45vh;    
-    background-color: #7fffd4;
+    background-color: #8d8686;
     border-radius: 15px 0 0 15px;
+    border: black;
 }
 
 .card_2 {
@@ -30,11 +34,48 @@
     height: 50vh;    
     background-color: rgb(165, 87, 51);
     border-radius: 15px;
+    
 }
 
 .card_3 {
     width: 12vw;
     height: 45vh;    
-    background-color: rgb(55, 25, 187);
+    background-color: #8d8686;
     border-radius: 0 15px 15px 0;
 }
+
+.txt_1 {
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+.txt_2 {
+    font-size: 80px;
+    margin-top: 2rem;
+}
+
+.txt_3 {
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.txt_4 {
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.txt_5 {
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.caixas button {
+    background-color: rgba(194, 191, 194, 0.384);
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
