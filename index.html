@@ -7,15 +7,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>Challenge Name Here</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <div class="imgs">
+    <img class="img_1" src="images/bg-bottom.svg" alt="logo_inf">
+    <img class="img_2" src="images/bg-top.svg" alt="logo_sup">    
+  </div> 
+   
   <div class="container">
       
     <div class="title">
@@ -23,9 +27,11 @@
     </div>
 
     <div class="packages">
-      <p>Annually ---- Monthly</p>
-    </div>
-    
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>   
 
     <section class="caixas">
       <div class="card_1">
@@ -33,19 +39,23 @@
           Basic
         </div>
         <div class="txt_2">
-          &dollar;19.99
+          <span>$</span>19.99
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_3">
           500 GB Storage
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_4">
           2 Users Allowed
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_5">
           Send up to 3 GB
-        </div>       
+        </div> 
+        <hr style="margin: 0 1em">      
         <div>
-          <button>Learn More</button>          
+          <button class="button_card1-3">Learn More</button>          
         </div>
       </div>
 
@@ -56,16 +66,20 @@
         <div class="txt_sub_2">
           &dollar;24.99
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_sub_3">
           1 TB Storage
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_sub_4">
           5 Users Allowed
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_sub_5">
           Send up to 10 GB
         </div>
-        <button>Learn More</button>
+        <hr style="margin: 0 1em">
+        <button class="button_card2">Learn More</button>
       </div>
 
       <div class="card_3">
@@ -75,16 +89,20 @@
         <div class="txt_2">
           &dollar;39.99
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_3">
           2 TB Storage
         </div> 
+        <hr style="margin: 0 1em">
         <div class="txt_4">
           10 Users Allowed
         </div>
+        <hr style="margin: 0 1em">
         <div class="txt_5">
           Send up to 20 GB
         </div>
-        <button>Learn More</button>          
+        <hr style="margin: 0 1em">
+        <button class="button_card1-3">Learn More</button>          
         </div>
       </div> 
     </section>  
