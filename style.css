@@ -3,24 +3,20 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
     background-color: #f7f7ff;
 }
 
-.imgs {
+.background {
     position: absolute;
 }
 
-.img_1 {
+.img_top{
+    margin-left: 140rem;
 }
-
-.img_2 {
-    position: relative;
-    margin-left: 113rem;
-}
-
 
 .title {
     text-align: center;
