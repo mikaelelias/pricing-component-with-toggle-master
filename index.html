@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
   <title>Challenge Name Here</title>
 
   <style>
@@ -24,7 +24,7 @@
 
     <div class="packages">
       <label class="switch">
-        <input type="checkbox">
+        <input onclick="on" type="checkbox" class="checkbox" id="checkbox">
         <span class="slider round"></span>
       </label>
     </div>   
@@ -35,7 +35,7 @@
           Basic
         </div>
         <div class="txt_2">
-          <span>$</span>19.99
+          <p>&dollar;19.99</p>
         </div>
         <hr style="margin: 0 1em">
         <div class="txt_3">
@@ -60,7 +60,7 @@
           Professional
         </div>
         <div class="txt_sub_2">
-          &dollar;24.99
+          <p>&dollar;24.99</p>
         </div>
         <hr style="margin: 0 1em">
         <div class="txt_sub_3">
@@ -83,7 +83,7 @@
           Master
         </div>
         <div class="txt_2">
-          &dollar;39.99
+          <p>&dollar;39.99</p>
         </div>
         <hr style="margin: 0 1em">
         <div class="txt_3">
@@ -102,8 +102,10 @@
         </div>
       </div> 
     </section>  
-
+    
   </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
 
