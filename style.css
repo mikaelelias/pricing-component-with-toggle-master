@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #dadadb;
+    background-color: #f7f7ff;
     background: url(images/bg-top.svg), url(images/bg-bottom.svg);
     background-position: right top, left top 100%;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body {
     width: 15vw;
     height: 50vh;    
     border-radius: 15px 0 0 15px;
-    background-color: #fff;
+    background-color: #fcf6f6;
 }
 
 .card_2 {
@@ -63,7 +63,7 @@ body {
     width: 15vw;
     height: 50vh;    
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #fcf6f6;;
 }
 
 .txt_1 {
@@ -164,11 +164,11 @@ body {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: hsl(236, 72%, 79%)
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px hsl(236, 72%, 79%)
   }
   
   input:checked + .slider:before {
@@ -184,3 +184,50 @@ body {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  @media (max-width: 2000px) { 
+    body{
+        margin: 0 auto;
+    }
+    
+    .caixas {
+        margin: 50px;
+        width: auto;
+    }
+
+    .card_1 {
+        width: 20rem;
+    }
+
+    .card_2 {
+        width: 20rem;
+    }
+
+    .card_3 {
+        width: 20rem;
+    }
+
+  }
+
+  @media (max-width: 1500px) {     
+    .caixas {
+        margin: 50px;
+        width: auto;
+    }
+
+    .card_1 {
+        width: 20rem;
+    }
+
+    .card_2 {
+        width: 20rem;
+    }
+
+    .card_3 {
+        width: 20rem;
+    }
+
+  }
+
+
+
