@@ -8,3 +8,5 @@ In HTML, Flexbox was used for better alignment of the elements, the creation of 
 Toggle Activation: Value Change
 ![image](https://user-images.githubusercontent.com/129218135/236484311-b8966019-edf0-4b43-91fd-31373a6a82f4.png)
 
+The second phase was to apply the JavaScript logic, thus making the page interactive with the user.
+
